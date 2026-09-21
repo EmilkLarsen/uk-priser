@@ -41,7 +41,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        chain: [wickes_uk]
+        chain: [wickes_uk, screwfix_uk]
     steps:
       - uses: actions/checkout@v4
         with:
