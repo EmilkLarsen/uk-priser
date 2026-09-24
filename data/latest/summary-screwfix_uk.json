@@ -2,11 +2,8 @@
  "date": "2026-09-24",
  "chains": {
   "screwfix_uk": {
-   "products": 6787,
-   "price_changes": 0,
-   "suspicious_changes": 0,
-   "expired": 0,
-   "seconds": 5954.1
+   "error": "collapse guard: 60 rows vs 6879 before",
+   "kept_previous": true
   }
  }
 }
