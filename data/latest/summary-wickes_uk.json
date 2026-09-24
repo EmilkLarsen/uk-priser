@@ -2,7 +2,7 @@
  "date": "2026-09-24",
  "chains": {
   "wickes_uk": {
-   "error": "collapse guard: 60 rows vs 36903 before",
+   "error": "collapse guard: 80 rows vs 36903 before",
    "kept_previous": true
   }
  }
