@@ -1,12 +1,12 @@
 {
- "date": "2026-09-25",
+ "date": "2026-09-26",
  "chains": {
   "screwfix_uk": {
-   "products": 6803,
+   "products": 6807,
    "price_changes": 0,
    "suspicious_changes": 0,
    "expired": 0,
-   "seconds": 6551.9
+   "seconds": 5462.0
   }
  }
 }
