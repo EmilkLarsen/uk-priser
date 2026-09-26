@@ -3,18 +3,12 @@
  "total_rows": 43900,
  "chains": {
   "wickes_uk": {
-   "products": 36874,
-   "price_changes": 0,
-   "suspicious_changes": 0,
-   "expired": 0,
-   "seconds": 18455.0
+   "error": "collapse guard: 100 rows vs 36909 before",
+   "kept_previous": true
   },
   "screwfix_uk": {
-   "products": 6807,
-   "price_changes": 0,
-   "suspicious_changes": 0,
-   "expired": 0,
-   "seconds": 5462.0
+   "error": "collapse guard: 100 rows vs 6991 before",
+   "kept_previous": true
   }
  }
 }
