@@ -1,1 +1,278 @@
-[]
+[
+ {
+  "key": "fernox f4 central heating leak sealer|l:0.5",
+  "name": "Fernox F4 Central Heating Leak Sealer - 500ml",
+  "prices": {
+   "wickes_uk": 18.0,
+   "screwfix_uk": 14.28
+  },
+  "min": 14.28,
+  "max": 18.0,
+  "spread_pct": 26.1,
+  "match": "probable"
+ },
+ {
+  "key": "roughneck round point micro shovel",
+  "name": "Roughneck Round Point Micro Shovel",
+  "prices": {
+   "wickes_uk": 13.0,
+   "screwfix_uk": 11.09
+  },
+  "min": 11.09,
+  "max": 13.0,
+  "spread_pct": 17.2,
+  "match": "probable"
+ },
+ {
+  "key": "fernox f3 central heating cleaner|l:0.5",
+  "name": "Fernox F3 Central Heating Cleaner - 500ml",
+  "prices": {
+   "wickes_uk": 24.0,
+   "screwfix_uk": 21.99
+  },
+  "min": 21.99,
+  "max": 24.0,
+  "spread_pct": 9.1,
+  "match": "probable"
+ },
+ {
+  "key": "squire ga4 garage defender",
+  "name": "Squire GA4 Garage Defender",
+  "prices": {
+   "wickes_uk": 85.0,
+   "screwfix_uk": 91.99
+  },
+  "min": 85.0,
+  "max": 91.99,
+  "spread_pct": 8.2,
+  "match": "probable"
+ },
+ {
+  "key": "soudal floor covering adhesive|kg:1.0",
+  "name": "Soudal Floor Covering Adhesive - 1kg",
+  "prices": {
+   "wickes_uk": 9.0,
+   "screwfix_uk": 8.39
+  },
+  "min": 8.39,
+  "max": 9.0,
+  "spread_pct": 7.3,
+  "match": "probable"
+ },
+ {
+  "key": "ronseal high performance wood filler white|kg:0.55",
+  "name": "Ronseal High Performance Wood Filler - White 550g",
+  "prices": {
+   "wickes_uk": 16.0,
+   "screwfix_uk": 14.99
+  },
+  "min": 14.99,
+  "max": 16.0,
+  "spread_pct": 6.7,
+  "match": "probable"
+ },
+ {
+  "key": "ronseal high performance wood filler natural|kg:0.55",
+  "name": "Ronseal High Performance Wood Filler - Natural 550g",
+  "prices": {
+   "wickes_uk": 16.0,
+   "screwfix_uk": 14.99
+  },
+  "min": 14.99,
+  "max": 16.0,
+  "spread_pct": 6.7,
+  "match": "probable"
+ },
+ {
+  "key": "roughneck rou68302 sharp edge soil rake 350mm|dim:350mm",
+  "name": "Roughneck® ROU68302 Sharp Edge Soil Rake - 350mm",
+  "prices": {
+   "wickes_uk": 32.0,
+   "screwfix_uk": 29.98
+  },
+  "min": 29.98,
+  "max": 32.0,
+  "spread_pct": 6.7,
+  "match": "probable"
+ },
+ {
+  "key": "ronseal high performance wood filler natural|kg:1.0",
+  "name": "Ronseal High Performance Wood Filler - Natural 1kg",
+  "prices": {
+   "wickes_uk": 25.7,
+   "screwfix_uk": 24.49
+  },
+  "min": 24.49,
+  "max": 25.7,
+  "spread_pct": 4.9,
+  "match": "probable"
+ },
+ {
+  "key": "jg speedfit 15esotp emergency shut off tap 15mm|dim:15mm",
+  "name": "JG Speedfit 15ESOTP Emergency Shut Off Tap - 15mm",
+  "prices": {
+   "wickes_uk": 8.9,
+   "screwfix_uk": 8.51
+  },
+  "min": 8.51,
+  "max": 8.9,
+  "spread_pct": 4.6,
+  "match": "probable"
+ },
+ {
+  "key": "wednesbury copper pipe 22mm x 2m|dim:22mm",
+  "name": "Wednesbury Copper Pipe - 22mm x 2m",
+  "prices": {
+   "wickes_uk": 22.0,
+   "screwfix_uk": 21.16
+  },
+  "min": 21.16,
+  "max": 22.0,
+  "spread_pct": 4.0,
+  "match": "probable"
+ },
+ {
+  "key": "worcester bosch magnetic system filter 22mm|dim:22mm",
+  "name": "Worcester Bosch Magnetic System Filter - 22mm",
+  "prices": {
+   "wickes_uk": 185.0,
+   "screwfix_uk": 177.99
+  },
+  "min": 177.99,
+  "max": 185.0,
+  "spread_pct": 3.9,
+  "match": "probable"
+ },
+ {
+  "key": "wednesbury copper pipe 22mm x 3m|dim:22mm",
+  "name": "Wednesbury Copper Pipe - 22mm x 3m",
+  "prices": {
+   "wickes_uk": 32.5,
+   "screwfix_uk": 31.31
+  },
+  "min": 31.31,
+  "max": 32.5,
+  "spread_pct": 3.8,
+  "match": "probable"
+ },
+ {
+  "key": "wednesbury copper pipe 15mm x 3m|dim:15mm",
+  "name": "Wednesbury Copper Pipe - 15mm x 3m",
+  "prices": {
+   "wickes_uk": 16.0,
+   "screwfix_uk": 15.6
+  },
+  "min": 15.6,
+  "max": 16.0,
+  "spread_pct": 2.6,
+  "match": "probable"
+ },
+ {
+  "key": "gardena weed puller with release mechanism",
+  "name": "Gardena Weed Puller with Release Mechanism",
+  "prices": {
+   "wickes_uk": 42.0,
+   "screwfix_uk": 42.99
+  },
+  "min": 42.0,
+  "max": 42.99,
+  "spread_pct": 2.4,
+  "match": "probable"
+ },
+ {
+  "key": "walsall universal puncture proof wheelbarrow wheel 350mm|dim:350mm",
+  "name": "Walsall Universal Puncture-Proof Wheelbarrow Wheel - 350mm",
+  "prices": {
+   "wickes_uk": 25.0,
+   "screwfix_uk": 25.49
+  },
+  "min": 25.0,
+  "max": 25.49,
+  "spread_pct": 2.0,
+  "match": "probable"
+ },
+ {
+  "key": "wednesbury copper pipe 15mm x 2m|dim:15mm",
+  "name": "Wednesbury Copper Pipe - 15mm x 2m",
+  "prices": {
+   "wickes_uk": 10.42,
+   "screwfix_uk": 10.24
+  },
+  "min": 10.24,
+  "max": 10.42,
+  "spread_pct": 1.8,
+  "match": "probable"
+ },
+ {
+  "key": "evo stik polyurethane wood adhesive|l:0.31",
+  "name": "EVO-STIK Polyurethane Wood Adhesive - 310ml",
+  "prices": {
+   "wickes_uk": 16.1,
+   "screwfix_uk": 15.99
+  },
+  "min": 15.99,
+  "max": 16.1,
+  "spread_pct": 0.7,
+  "match": "probable"
+ },
+ {
+  "key": "soudal lvt pvc amp vinyl flooring adhesive|kg:5.0",
+  "name": "Soudal LVT, PVC &amp; Vinyl Flooring Adhesive - 5kg",
+  "prices": {
+   "wickes_uk": 42.0,
+   "screwfix_uk": 41.89
+  },
+  "min": 41.89,
+  "max": 42.0,
+  "spread_pct": 0.3,
+  "match": "probable"
+ },
+ {
+  "key": "zero in ultra power wasp nest foam|l:0.6",
+  "name": "Zero In Ultra Power Wasp Nest Foam - 600ml",
+  "prices": {
+   "wickes_uk": 11.0,
+   "screwfix_uk": 10.98
+  },
+  "min": 10.98,
+  "max": 11.0,
+  "spread_pct": 0.2,
+  "match": "probable"
+ },
+ {
+  "key": "fitters mate lift amp go attachment",
+  "name": "Fitters Mate Lift &amp; Go Attachment",
+  "prices": {
+   "wickes_uk": 30.0,
+   "screwfix_uk": 29.99
+  },
+  "min": 29.99,
+  "max": 30.0,
+  "spread_pct": 0.0,
+  "match": "probable"
+ },
+ {
+  "key": "yale indoor motion sensor",
+  "name": "Yale Indoor Motion Sensor",
+  "prices": {
+   "wickes_uk": 45.0,
+   "screwfix_uk": 44.99
+  },
+  "min": 44.99,
+  "max": 45.0,
+  "spread_pct": 0.0,
+  "match": "probable"
+ },
+ {
+  "key": "yale smart alarm starter kit",
+  "name": "Yale Smart Alarm Starter Kit",
+  "prices": {
+   "wickes_uk": 400.0,
+   "screwfix_uk": 399.99
+  },
+  "min": 399.99,
+  "max": 400.0,
+  "spread_pct": 0.0,
+  "match": "probable"
+ }
+]
