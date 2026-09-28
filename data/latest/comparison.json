@@ -36,18 +36,6 @@
   "match": "probable"
  },
  {
-  "key": "squire ga4 garage defender",
-  "name": "Squire GA4 Garage Defender",
-  "prices": {
-   "wickes_uk": 85.0,
-   "screwfix_uk": 91.99
-  },
-  "min": 85.0,
-  "max": 91.99,
-  "spread_pct": 8.2,
-  "match": "probable"
- },
- {
   "key": "soudal floor covering adhesive|kg:1.0",
   "name": "Soudal Floor Covering Adhesive - 1kg",
   "prices": {
@@ -153,6 +141,18 @@
   "min": 31.31,
   "max": 32.5,
   "spread_pct": 3.8,
+  "match": "probable"
+ },
+ {
+  "key": "squire ga4 garage defender",
+  "name": "Squire GA4 Garage Defender",
+  "prices": {
+   "wickes_uk": 85.0,
+   "screwfix_uk": 87.99
+  },
+  "min": 85.0,
+  "max": 87.99,
+  "spread_pct": 3.5,
   "match": "probable"
  },
  {
