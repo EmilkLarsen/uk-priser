@@ -12,6 +12,18 @@
   "match": "probable"
  },
  {
+  "key": "eglo mogano 2 ceiling light black copper",
+  "name": "Eglo Mogano 2 Ceiling Light - Black / Copper",
+  "prices": {
+   "wickes_uk": 42.0,
+   "screwfix_uk": 33.99
+  },
+  "min": 33.99,
+  "max": 42.0,
+  "spread_pct": 23.6,
+  "match": "probable"
+ },
+ {
   "key": "roughneck round point micro shovel",
   "name": "Roughneck Round Point Micro Shovel",
   "prices": {
