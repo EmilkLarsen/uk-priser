@@ -96,6 +96,18 @@
   "match": "probable"
  },
  {
+  "key": "walsall universal puncture proof wheelbarrow wheel 350mm|dim:350mm",
+  "name": "Walsall Universal Puncture-Proof Wheelbarrow Wheel - 350mm",
+  "prices": {
+   "wickes_uk": 27.0,
+   "screwfix_uk": 25.49
+  },
+  "min": 25.49,
+  "max": 27.0,
+  "spread_pct": 5.9,
+  "match": "probable"
+ },
+ {
   "key": "ronseal high performance wood filler natural|kg:1.0",
   "name": "Ronseal High Performance Wood Filler - Natural 1kg",
   "prices": {
@@ -189,18 +201,6 @@
   "min": 42.0,
   "max": 42.99,
   "spread_pct": 2.4,
-  "match": "probable"
- },
- {
-  "key": "walsall universal puncture proof wheelbarrow wheel 350mm|dim:350mm",
-  "name": "Walsall Universal Puncture-Proof Wheelbarrow Wheel - 350mm",
-  "prices": {
-   "wickes_uk": 25.0,
-   "screwfix_uk": 25.49
-  },
-  "min": 25.0,
-  "max": 25.49,
-  "spread_pct": 2.0,
   "match": "probable"
  },
  {
