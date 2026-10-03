@@ -1,5 +1,5 @@
 {
- "date": "2026-10-02",
+ "date": "2026-10-03",
  "total_rows": 44120,
  "chains": {
   "wickes_uk": {
@@ -10,7 +10,7 @@
    "seconds": 19351.6
   },
   "screwfix_uk": {
-   "error": "collapse guard: 20 rows vs 7144 before",
+   "error": "collapse guard: 138 rows vs 7144 before",
    "kept_previous": true
   }
  }
