@@ -5,7 +5,7 @@ every product page carries clean schema.org ld+json with GBP price.
 Pipeline: category sitemap -> product URLs -> product page ld+json.
 """
 import re
-from common import get, sitemap_urls, ldjson_products, offer_from_ld, sane_price, valid_ean, first_str, write_jsonl, pmap
+from common import scrape_with_checkpoint,  get, sitemap_urls, ldjson_products, offer_from_ld, sane_price, valid_ean, first_str, write_jsonl, pmap
 
 BASE = "https://www.screwfix.com"
 OUT = "data/latest/screwfix_uk.jsonl"
@@ -65,14 +65,8 @@ def handle(u, html):
     return rows
 
 
-def scrape(limit=None):
-    def work(u):
-        try:
-            return handle(u, get(u))
-        except Exception as e:
-            print(f"  ! {u}: {e}")
-            return []
-    return pmap(work, fetch_url_list(limit))
+def scrape(limit=None, deadline=None):
+    return scrape_with_checkpoint("screwfix_uk", fetch_url_list(limit), handle, limit, deadline)
 
 
 if __name__ == "__main__":
