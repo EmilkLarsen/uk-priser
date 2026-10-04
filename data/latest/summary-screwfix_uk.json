@@ -1,8 +1,8 @@
 {
- "date": "2026-10-03",
+ "date": "2026-10-04",
  "chains": {
   "screwfix_uk": {
-   "error": "collapse guard: 25 rows vs 7144 before",
+   "error": "collapse guard: 20 rows vs 7144 before",
    "kept_previous": true
   }
  }
