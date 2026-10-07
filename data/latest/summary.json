@@ -10,7 +10,8 @@
    "seconds": 4954.9
   },
   "screwfix_uk": {
-   "error": "HTTPError: HTTP Error 404: Not Found"
+   "error": "collapse guard: 25 rows vs 7144 before",
+   "kept_previous": true
   }
  }
 }
