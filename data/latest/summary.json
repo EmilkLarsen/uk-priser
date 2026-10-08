@@ -1,17 +1,16 @@
 {
- "date": "2026-10-07",
- "total_rows": 44134,
+ "date": "2026-10-08",
+ "total_rows": 44142,
  "chains": {
   "wickes_uk": {
-   "products": 36542,
+   "products": 27076,
    "price_changes": 0,
    "suspicious_changes": 0,
-   "expired": 22,
-   "seconds": 4954.9
+   "expired": 0,
+   "seconds": 18001.4
   },
   "screwfix_uk": {
-   "error": "collapse guard: 25 rows vs 7144 before",
-   "kept_previous": true
+   "error": "HTTPError: HTTP Error 404: Not Found"
   }
  }
 }
