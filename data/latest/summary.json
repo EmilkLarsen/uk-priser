@@ -10,7 +10,7 @@
    "seconds": 7622.7
   },
   "screwfix_uk": {
-   "error": "collapse guard: 40 rows vs 7144 before",
+   "error": "collapse guard: 0 rows vs 7144 before",
    "kept_previous": true
   }
  }
