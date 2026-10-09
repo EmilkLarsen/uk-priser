@@ -2,11 +2,11 @@
  "date": "2026-10-09",
  "chains": {
   "wickes_uk": {
-   "products": 35721,
+   "products": 36537,
    "price_changes": 0,
    "suspicious_changes": 0,
-   "expired": 0,
-   "seconds": 18001.4
+   "expired": 1,
+   "seconds": 390.5
   }
  }
 }
