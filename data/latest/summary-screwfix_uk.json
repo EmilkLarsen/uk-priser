@@ -1,8 +1,9 @@
 {
- "date": "2026-10-08",
+ "date": "2026-10-09",
  "chains": {
   "screwfix_uk": {
-   "error": "HTTPError: HTTP Error 404: Not Found"
+   "error": "collapse guard: 20 rows vs 7144 before",
+   "kept_previous": true
   }
  }
 }
