@@ -29,6 +29,13 @@ LATEST = os.path.join(ROOT, "data", "latest")
 DEFAULT_CHAINS = []
 MAX_AGE_DAYS = 3
 
+# chains verified permanently bot-walled from datacenter IPs - retried nightly,
+# but excluded from stale alerts (see module docstring in fi-priser's copy for
+# the full rationale). Verified live 2026-10-13: screwfix.com serves every
+# product page as an unparseable bot page to GitHub runners (0 rows across the
+# whole catalog for 13 days) while serving real content to residential IPs.
+KNOWN_BLOCKED = {"screwfix_uk"}
+
 
 def discover_chains():
     env = os.environ.get("CHAINS", "")
@@ -37,7 +44,10 @@ def discover_chains():
     chains = set()
     if os.path.isdir(LATEST):
         for fn in os.listdir(LATEST):
-            if fn.startswith(".") or fn in ("prices.jsonl", "scrape_state.json"):
+            if fn.startswith(".") or fn in ("prices.jsonl", "prices.jsonl.gz", "scrape_state.json"):
+                continue
+            if fn.endswith(".jsonl.gz"):
+                chains.add(fn[:-len(".jsonl.gz")])
                 continue
             if not fn.endswith(".jsonl"):
                 continue
@@ -61,9 +71,16 @@ def main():
             # covered. So an existing checkpoint buffer = an actively-growing
             # build, not a stall (verified live: bauhaus_se fired a false
             # >3-day alert mid-build while gaining ~16k rows/night).
-            ckpt = os.path.join(LATEST, f".checkpoint-{chain}.jsonl")
+            ckpt = os.path.join(LATEST, f".checkpoint-{chain}.jsonl.gz")
             if os.path.exists(ckpt):
                 print(f"  {chain}: checkpoint build in progress (no marker yet) - not stale")
+                continue
+            ckpt_legacy = os.path.join(LATEST, f".checkpoint-{chain}.jsonl")
+            if os.path.exists(ckpt_legacy):
+                print(f"  {chain}: checkpoint build in progress (no marker yet) - not stale")
+                continue
+            if chain in KNOWN_BLOCKED:
+                print(f"  {chain}: known-blocked (bot-walled from CI IPs), retrying nightly - not alerted")
                 continue
             stale.append(f"{chain} (no valid completion marker)")
             continue
