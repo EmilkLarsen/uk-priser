@@ -32,6 +32,10 @@ def fetch_url_list(limit=None):
                 urls.append(BASE + pu)
                 if limit and len(urls) >= limit:
                     return urls
+    if not urls:
+        raise RuntimeError(
+            "screwfix_uk discovery: 0 product urls from category sitemaps "
+            "- blocked, moved, or markup changed")
     return urls
 
 
