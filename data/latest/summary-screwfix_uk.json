@@ -1,9 +1,8 @@
 {
- "date": "2026-10-18",
+ "date": "2026-10-19",
  "chains": {
   "screwfix_uk": {
-   "error": "collapse guard: 0 rows vs 7144 before",
-   "kept_previous": true
+   "error": "RuntimeError: screwfix_uk discovery: 0 product urls from category sitemaps - blocked, moved, or markup changed"
   }
  }
 }
