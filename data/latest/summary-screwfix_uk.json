@@ -1,5 +1,5 @@
 {
- "date": "2026-10-19",
+ "date": "2026-10-20",
  "chains": {
   "screwfix_uk": {
    "error": "RuntimeError: screwfix_uk discovery: 0 product urls from category sitemaps - blocked, moved, or markup changed"
