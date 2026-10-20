@@ -1,13 +1,13 @@
 {
- "date": "2026-10-19",
+ "date": "2026-10-20",
  "total_rows": 43893,
  "chains": {
   "wickes_uk": {
-   "products": 36660,
+   "products": 29520,
    "price_changes": 0,
    "suspicious_changes": 0,
    "expired": 0,
-   "seconds": 1557.1
+   "seconds": 18001.5
   },
   "screwfix_uk": {
    "error": "RuntimeError: screwfix_uk discovery: 0 product urls from category sitemaps - blocked, moved, or markup changed"
