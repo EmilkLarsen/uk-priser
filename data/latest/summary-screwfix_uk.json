@@ -1,8 +1,8 @@
 {
- "date": "2026-10-20",
+ "date": "2026-10-21",
  "chains": {
   "screwfix_uk": {
-   "error": "RuntimeError: screwfix_uk discovery: 0 product urls from category sitemaps - blocked, moved, or markup changed"
+   "error": "HTTPError: HTTP Error 405: Not Allowed"
   }
  }
 }
