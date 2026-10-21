@@ -1,16 +1,16 @@
 {
- "date": "2026-10-20",
+ "date": "2026-10-21",
  "total_rows": 43894,
  "chains": {
   "wickes_uk": {
-   "products": 36669,
+   "products": 23587,
    "price_changes": 0,
    "suspicious_changes": 0,
-   "expired": 11,
-   "seconds": 3382.9
+   "expired": 0,
+   "seconds": 18001.2
   },
   "screwfix_uk": {
-   "error": "RuntimeError: screwfix_uk discovery: 0 product urls from category sitemaps - blocked, moved, or markup changed"
+   "error": "HTTPError: HTTP Error 405: Not Allowed"
   }
  }
 }
