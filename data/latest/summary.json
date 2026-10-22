@@ -1,13 +1,13 @@
 {
- "date": "2026-10-21",
+ "date": "2026-10-22",
  "total_rows": 43881,
  "chains": {
   "wickes_uk": {
-   "products": 36665,
+   "products": 29692,
    "price_changes": 0,
    "suspicious_changes": 0,
-   "expired": 13,
-   "seconds": 6928.0
+   "expired": 0,
+   "seconds": 18001.4
   },
   "screwfix_uk": {
    "error": "HTTPError: HTTP Error 405: Not Allowed"
