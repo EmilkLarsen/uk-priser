@@ -2,7 +2,7 @@
  "date": "2026-10-27",
  "chains": {
   "screwfix_uk": {
-   "error": "HTTPError: HTTP Error 405: Not Allowed"
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  }
 }
