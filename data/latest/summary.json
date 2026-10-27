@@ -10,7 +10,7 @@
    "seconds": 3132.7
   },
   "screwfix_uk": {
-   "error": "HTTPError: HTTP Error 403: Forbidden"
+   "error": "HTTPError: HTTP Error 405: Not Allowed"
   }
  }
 }
