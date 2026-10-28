@@ -2,12 +2,12 @@
  "date": "2026-10-28",
  "total_rows": 43904,
  "chains": {
-  "screwfix_uk": {
-   "error": "HTTPError: HTTP Error 405: Not Allowed"
-  },
   "wickes_uk": {
    "error": "collapse guard: 0 rows vs 36760 before",
    "kept_previous": true
+  },
+  "screwfix_uk": {
+   "error": "HTTPError: HTTP Error 405: Not Allowed"
   }
  }
 }
