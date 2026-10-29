@@ -108,6 +108,18 @@
   "match": "probable"
  },
  {
+  "key": "wednesbury copper pipe 22mm x 2m|dim:22mm",
+  "name": "Wednesbury Copper Pipe - 22mm x 2m",
+  "prices": {
+   "wickes_uk": 22.2,
+   "screwfix_uk": 21.16
+  },
+  "min": 21.16,
+  "max": 22.2,
+  "spread_pct": 4.9,
+  "match": "probable"
+ },
+ {
   "key": "ronseal high performance wood filler natural|kg:1.0",
   "name": "Ronseal High Performance Wood Filler - Natural 1kg",
   "prices": {
@@ -117,6 +129,30 @@
   "min": 24.49,
   "max": 25.7,
   "spread_pct": 4.9,
+  "match": "probable"
+ },
+ {
+  "key": "wednesbury copper pipe 15mm x 3m|dim:15mm",
+  "name": "Wednesbury Copper Pipe - 15mm x 3m",
+  "prices": {
+   "wickes_uk": 16.35,
+   "screwfix_uk": 15.6
+  },
+  "min": 15.6,
+  "max": 16.35,
+  "spread_pct": 4.8,
+  "match": "probable"
+ },
+ {
+  "key": "wednesbury copper pipe 22mm x 3m|dim:22mm",
+  "name": "Wednesbury Copper Pipe - 22mm x 3m",
+  "prices": {
+   "wickes_uk": 32.8,
+   "screwfix_uk": 31.31
+  },
+  "min": 31.31,
+  "max": 32.8,
+  "spread_pct": 4.8,
   "match": "probable"
  },
  {
@@ -132,18 +168,6 @@
   "match": "probable"
  },
  {
-  "key": "wednesbury copper pipe 22mm x 2m|dim:22mm",
-  "name": "Wednesbury Copper Pipe - 22mm x 2m",
-  "prices": {
-   "wickes_uk": 22.0,
-   "screwfix_uk": 21.16
-  },
-  "min": 21.16,
-  "max": 22.0,
-  "spread_pct": 4.0,
-  "match": "probable"
- },
- {
   "key": "worcester bosch magnetic system filter 22mm|dim:22mm",
   "name": "Worcester Bosch Magnetic System Filter - 22mm",
   "prices": {
@@ -156,18 +180,6 @@
   "match": "probable"
  },
  {
-  "key": "wednesbury copper pipe 22mm x 3m|dim:22mm",
-  "name": "Wednesbury Copper Pipe - 22mm x 3m",
-  "prices": {
-   "wickes_uk": 32.5,
-   "screwfix_uk": 31.31
-  },
-  "min": 31.31,
-  "max": 32.5,
-  "spread_pct": 3.8,
-  "match": "probable"
- },
- {
   "key": "squire ga4 garage defender",
   "name": "Squire GA4 Garage Defender",
   "prices": {
@@ -177,18 +189,6 @@
   "min": 85.0,
   "max": 87.99,
   "spread_pct": 3.5,
-  "match": "probable"
- },
- {
-  "key": "wednesbury copper pipe 15mm x 3m|dim:15mm",
-  "name": "Wednesbury Copper Pipe - 15mm x 3m",
-  "prices": {
-   "wickes_uk": 16.0,
-   "screwfix_uk": 15.6
-  },
-  "min": 15.6,
-  "max": 16.0,
-  "spread_pct": 2.6,
   "match": "probable"
  },
  {
