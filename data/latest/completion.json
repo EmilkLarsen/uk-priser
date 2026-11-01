@@ -1,5 +1,5 @@
 {
- "date": "2026-10-31",
+ "date": "2026-11-01",
  "detail": {
   "screwfix_uk": {
    "rows": 7144,
@@ -7,7 +7,7 @@
   },
   "wickes_uk": {
    "rows": 36786,
-   "complete": true
+   "complete": false
   }
  }
 }
