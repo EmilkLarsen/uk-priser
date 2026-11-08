@@ -1,12 +1,12 @@
 {
- "date": "2026-11-07",
+ "date": "2026-11-08",
  "chains": {
   "wickes_uk": {
-   "products": 36469,
+   "products": 36118,
    "price_changes": 0,
    "suspicious_changes": 0,
-   "expired": 29,
-   "seconds": 2606.8
+   "expired": 0,
+   "seconds": 18001.6
   }
  }
 }
