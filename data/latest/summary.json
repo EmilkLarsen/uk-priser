@@ -6,11 +6,11 @@
    "error": "HTTPError: HTTP Error 405: Not Allowed"
   },
   "wickes_uk": {
-   "products": 29659,
+   "products": 36594,
    "price_changes": 0,
    "suspicious_changes": 0,
-   "expired": 0,
-   "seconds": 18001.4
+   "expired": 4,
+   "seconds": 3907.4
   }
  }
 }
