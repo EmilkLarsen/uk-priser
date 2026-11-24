@@ -1,5 +1,5 @@
 {
- "date": "2026-11-23",
+ "date": "2026-11-24",
  "chains": {
   "screwfix_uk": {
    "error": "HTTPError: HTTP Error 405: Not Allowed"
